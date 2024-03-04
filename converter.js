@@ -2,7 +2,7 @@ const Web3 = require('web3');
 const { ethers } = require('ethers');
 
 // Initialize Web3 provider for Ethereum
-const ethereumProvider = new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID');
+const ethereumProvider = new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/3e6d2754ca154446a211dfdaaf16cb79');
 const ethereumWeb3 = new Web3(ethereumProvider);
 
 // Initialize Web3 provider for Polygon
